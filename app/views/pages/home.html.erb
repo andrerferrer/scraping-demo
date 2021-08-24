@@ -2,3 +2,10 @@
 
 <p>An app to find the current Smash Bros Game price on several countries</p>
 
+<table>
+  <tbody>
+    <% @country_prices.each do |country_price| %>
+      <%= country_price.html_safe %>
+    <% end %>
+  </tbody>
+</table>
