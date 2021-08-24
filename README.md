@@ -12,7 +12,7 @@ This is a demo to show-case how to implement a service object.
 
   First, you should implement the logic in the controller and see it working.
 
-### [Export it to a service object](https://github.com/andrerferrer/card-flip-demo/commit/7732f4f2040aa06ad19240d70a8f1f7c6e2912b1)
+### [Export it to a service object](https://github.com/andrerferrer/scraping-demo/commit/ce2afda8e0eca6f4ccd290e7cf0617784b333810)
 
   Then, you should create the `app/services` folder (if it doesn't exist yet) and create a PORO (Plain Old Ruby Object) to encapsule your logic.
   It is good practice to have a method called `call` to run your service object.
